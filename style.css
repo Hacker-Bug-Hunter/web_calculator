@@ -3,32 +3,112 @@
   margin: 0;
 }
 body {
-  background-color: #a6d6ff;
+  background-color: #363636;
   justify-content: center;
   align-items: center;
   display: flex;
   height: 100vh;
   width: 100vw;
 }
+
+header {
+  background-color:black;
+  color: #fff;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline;
+  margin: 0 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
 .main {
-  background-color: white;
+  background-color: #a7a6a6;
   padding: 10px;
   width: 50%;
 }
 #display {
   text-align: right;
-  font-size: 400%;
+  font-size: 500%; 
   width: 100%;
+  padding: px
 }
 .button {
   background-color: black;
   color: white;
   height: 24%;
   width: 23%;
+  border: 1px solid #ccc;
+  color: #000;
+  font-size: 24px; 
+  padding: 20px;  
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
 }
 .error {
   background-color: red;
+  border: 1px solid #ccc;
+  color: #000;
+  font-size: 24px; 
+  padding: 20px;  
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
 }
+
 .good{
-  background-color: green;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  color: #000;
+  font-size: 24px; 
+  padding: 20px;  
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.good-igual{
+  background-color: #828282;
+  border: 1px solid #b8b8b8;
+  color: #000;
+  font-size: 24px; 
+  padding: 20px;  
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.good-func{
+  background-color: #d7d7d7;
+  border: 1px solid #ccc;
+  color: #000;
+  font-size: 24px; 
+  padding: 20px;  
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+
 }
